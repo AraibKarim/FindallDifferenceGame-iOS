@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3629DA74237C635D000E46A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DA73237C635D000E46A3 /* AppDelegate.swift */; };
+		3629DA76237C635D000E46A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3629DA75237C635D000E46A3 /* GameScene.sks */; };
+		3629DA78237C635D000E46A3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3629DA77237C635D000E46A3 /* Actions.sks */; };
+		3629DA7A237C635D000E46A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DA79237C635D000E46A3 /* GameScene.swift */; };
+		3629DA7C237C635D000E46A3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DA7B237C635D000E46A3 /* GameViewController.swift */; };
+		3629DA7F237C635D000E46A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3629DA7D237C635D000E46A3 /* Main.storyboard */; };
+		3629DA81237C635F000E46A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3629DA80237C635F000E46A3 /* Assets.xcassets */; };
+		3629DA84237C635F000E46A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3629DA82237C635F000E46A3 /* LaunchScreen.storyboard */; };
+		3629DA8F237C635F000E46A3 /* Find_the_DifferencesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DA8E237C635F000E46A3 /* Find_the_DifferencesTests.swift */; };
+		3629DA9A237C635F000E46A3 /* Find_the_DifferencesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DA99237C635F000E46A3 /* Find_the_DifferencesUITests.swift */; };
+		3629DAA8237C6509000E46A3 /* PictureObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DAA7237C6509000E46A3 /* PictureObject.swift */; };
+		3629DAB0237C68CA000E46A3 /* level1_incomplete.png in Resources */ = {isa = PBXBuildFile; fileRef = 3629DAAA237C68C9000E46A3 /* level1_incomplete.png */; };
+		3629DAB1237C68CA000E46A3 /* level1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3629DAAB237C68C9000E46A3 /* level1_2.png */; };
+		3629DAB2237C68CA000E46A3 /* level1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3629DAAC237C68C9000E46A3 /* level1_3.png */; };
+		3629DAB3237C68CA000E46A3 /* level1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3629DAAD237C68C9000E46A3 /* level1_1.png */; };
+		3629DAB4237C68CA000E46A3 /* level1_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3629DAAE237C68C9000E46A3 /* level1_4.png */; };
+		3629DAB5237C68CA000E46A3 /* level1_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3629DAAF237C68C9000E46A3 /* level1_5.png */; };
+		3629DAB9237CA6DA000E46A3 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DAB8237CA6DA000E46A3 /* Controller.swift */; };
+		3629DABB237CAE97000E46A3 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629DABA237CAE97000E46A3 /* Level.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3629DA8B237C635F000E46A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3629DA68237C635D000E46A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3629DA6F237C635D000E46A3;
+			remoteInfo = "Find the Differences";
+		};
+		3629DA96237C635F000E46A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3629DA68237C635D000E46A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3629DA6F237C635D000E46A3;
+			remoteInfo = "Find the Differences";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3629DA70237C635D000E46A3 /* Find the Differences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find the Differences.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3629DA73237C635D000E46A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3629DA75237C635D000E46A3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3629DA77237C635D000E46A3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3629DA79237C635D000E46A3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3629DA7B237C635D000E46A3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3629DA7E237C635D000E46A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3629DA80237C635F000E46A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3629DA83237C635F000E46A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3629DA85237C635F000E46A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3629DA8A237C635F000E46A3 /* Find the DifferencesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the DifferencesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3629DA8E237C635F000E46A3 /* Find_the_DifferencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_DifferencesTests.swift; sourceTree = "<group>"; };
+		3629DA90237C635F000E46A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3629DA95237C635F000E46A3 /* Find the DifferencesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find the DifferencesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3629DA99237C635F000E46A3 /* Find_the_DifferencesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_the_DifferencesUITests.swift; sourceTree = "<group>"; };
+		3629DA9B237C635F000E46A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3629DAA7237C6509000E46A3 /* PictureObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureObject.swift; sourceTree = "<group>"; };
+		3629DAAA237C68C9000E46A3 /* level1_incomplete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level1_incomplete.png; sourceTree = "<group>"; };
+		3629DAAB237C68C9000E46A3 /* level1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level1_2.png; sourceTree = "<group>"; };
+		3629DAAC237C68C9000E46A3 /* level1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level1_3.png; sourceTree = "<group>"; };
+		3629DAAD237C68C9000E46A3 /* level1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level1_1.png; sourceTree = "<group>"; };
+		3629DAAE237C68C9000E46A3 /* level1_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level1_4.png; sourceTree = "<group>"; };
+		3629DAAF237C68C9000E46A3 /* level1_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level1_5.png; sourceTree = "<group>"; };
+		3629DAB8237CA6DA000E46A3 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		3629DABA237CAE97000E46A3 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3629DA6D237C635D000E46A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3629DA87237C635F000E46A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3629DA92237C635F000E46A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3629DA67237C635D000E46A3 = {
+			isa = PBXGroup;
+			children = (
+				3629DA72237C635D000E46A3 /* Find the Differences */,
+				3629DA8D237C635F000E46A3 /* Find the DifferencesTests */,
+				3629DA98237C635F000E46A3 /* Find the DifferencesUITests */,
+				3629DA71237C635D000E46A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3629DA71237C635D000E46A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3629DA70237C635D000E46A3 /* Find the Differences.app */,
+				3629DA8A237C635F000E46A3 /* Find the DifferencesTests.xctest */,
+				3629DA95237C635F000E46A3 /* Find the DifferencesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3629DA72237C635D000E46A3 /* Find the Differences */ = {
+			isa = PBXGroup;
+			children = (
+				3629DABE237CB172000E46A3 /* controller */,
+				3629DABD237CB162000E46A3 /* views */,
+				3629DABC237CB14F000E46A3 /* modal */,
+				3629DAA9237C68C9000E46A3 /* resources */,
+				3629DA73237C635D000E46A3 /* AppDelegate.swift */,
+				3629DA75237C635D000E46A3 /* GameScene.sks */,
+				3629DA77237C635D000E46A3 /* Actions.sks */,
+				3629DA7D237C635D000E46A3 /* Main.storyboard */,
+				3629DA80237C635F000E46A3 /* Assets.xcassets */,
+				3629DA82237C635F000E46A3 /* LaunchScreen.storyboard */,
+				3629DA85237C635F000E46A3 /* Info.plist */,
+			);
+			path = "Find the Differences";
+			sourceTree = "<group>";
+		};
+		3629DA8D237C635F000E46A3 /* Find the DifferencesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3629DA8E237C635F000E46A3 /* Find_the_DifferencesTests.swift */,
+				3629DA90237C635F000E46A3 /* Info.plist */,
+			);
+			path = "Find the DifferencesTests";
+			sourceTree = "<group>";
+		};
+		3629DA98237C635F000E46A3 /* Find the DifferencesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3629DA99237C635F000E46A3 /* Find_the_DifferencesUITests.swift */,
+				3629DA9B237C635F000E46A3 /* Info.plist */,
+			);
+			path = "Find the DifferencesUITests";
+			sourceTree = "<group>";
+		};
+		3629DAA9237C68C9000E46A3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				3629DAAA237C68C9000E46A3 /* level1_incomplete.png */,
+				3629DAAB237C68C9000E46A3 /* level1_2.png */,
+				3629DAAC237C68C9000E46A3 /* level1_3.png */,
+				3629DAAD237C68C9000E46A3 /* level1_1.png */,
+				3629DAAE237C68C9000E46A3 /* level1_4.png */,
+				3629DAAF237C68C9000E46A3 /* level1_5.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		3629DABC237CB14F000E46A3 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				3629DAA7237C6509000E46A3 /* PictureObject.swift */,
+				3629DABA237CAE97000E46A3 /* Level.swift */,
+			);
+			path = modal;
+			sourceTree = "<group>";
+		};
+		3629DABD237CB162000E46A3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3629DA79237C635D000E46A3 /* GameScene.swift */,
+				3629DA7B237C635D000E46A3 /* GameViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3629DABE237CB172000E46A3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3629DAB8237CA6DA000E46A3 /* Controller.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3629DA6F237C635D000E46A3 /* Find the Differences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3629DA9E237C635F000E46A3 /* Build configuration list for PBXNativeTarget "Find the Differences" */;
+			buildPhases = (
+				3629DA6C237C635D000E46A3 /* Sources */,
+				3629DA6D237C635D000E46A3 /* Frameworks */,
+				3629DA6E237C635D000E46A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find the Differences";
+			productName = "Find the Differences";
+			productReference = 3629DA70237C635D000E46A3 /* Find the Differences.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3629DA89237C635F000E46A3 /* Find the DifferencesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3629DAA1237C635F000E46A3 /* Build configuration list for PBXNativeTarget "Find the DifferencesTests" */;
+			buildPhases = (
+				3629DA86237C635F000E46A3 /* Sources */,
+				3629DA87237C635F000E46A3 /* Frameworks */,
+				3629DA88237C635F000E46A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3629DA8C237C635F000E46A3 /* PBXTargetDependency */,
+			);
+			name = "Find the DifferencesTests";
+			productName = "Find the DifferencesTests";
+			productReference = 3629DA8A237C635F000E46A3 /* Find the DifferencesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3629DA94237C635F000E46A3 /* Find the DifferencesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3629DAA4237C635F000E46A3 /* Build configuration list for PBXNativeTarget "Find the DifferencesUITests" */;
+			buildPhases = (
+				3629DA91237C635F000E46A3 /* Sources */,
+				3629DA92237C635F000E46A3 /* Frameworks */,
+				3629DA93237C635F000E46A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3629DA97237C635F000E46A3 /* PBXTargetDependency */,
+			);
+			name = "Find the DifferencesUITests";
+			productName = "Find the DifferencesUITests";
+			productReference = 3629DA95237C635F000E46A3 /* Find the DifferencesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3629DA68237C635D000E46A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Woody Apps";
+				TargetAttributes = {
+					3629DA6F237C635D000E46A3 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					3629DA89237C635F000E46A3 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 3629DA6F237C635D000E46A3;
+					};
+					3629DA94237C635F000E46A3 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 3629DA6F237C635D000E46A3;
+					};
+				};
+			};
+			buildConfigurationList = 3629DA6B237C635D000E46A3 /* Build configuration list for PBXProject "Find the Differences" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3629DA67237C635D000E46A3;
+			productRefGroup = 3629DA71237C635D000E46A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3629DA6F237C635D000E46A3 /* Find the Differences */,
+				3629DA89237C635F000E46A3 /* Find the DifferencesTests */,
+				3629DA94237C635F000E46A3 /* Find the DifferencesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3629DA6E237C635D000E46A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3629DA7F237C635D000E46A3 /* Main.storyboard in Resources */,
+				3629DAB5237C68CA000E46A3 /* level1_5.png in Resources */,
+				3629DA76237C635D000E46A3 /* GameScene.sks in Resources */,
+				3629DAB2237C68CA000E46A3 /* level1_3.png in Resources */,
+				3629DA81237C635F000E46A3 /* Assets.xcassets in Resources */,
+				3629DA84237C635F000E46A3 /* LaunchScreen.storyboard in Resources */,
+				3629DAB4237C68CA000E46A3 /* level1_4.png in Resources */,
+				3629DAB3237C68CA000E46A3 /* level1_1.png in Resources */,
+				3629DAB0237C68CA000E46A3 /* level1_incomplete.png in Resources */,
+				3629DA78237C635D000E46A3 /* Actions.sks in Resources */,
+				3629DAB1237C68CA000E46A3 /* level1_2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3629DA88237C635F000E46A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3629DA93237C635F000E46A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3629DA6C237C635D000E46A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3629DABB237CAE97000E46A3 /* Level.swift in Sources */,
+				3629DA7A237C635D000E46A3 /* GameScene.swift in Sources */,
+				3629DAA8237C6509000E46A3 /* PictureObject.swift in Sources */,
+				3629DA7C237C635D000E46A3 /* GameViewController.swift in Sources */,
+				3629DAB9237CA6DA000E46A3 /* Controller.swift in Sources */,
+				3629DA74237C635D000E46A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3629DA86237C635F000E46A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3629DA8F237C635F000E46A3 /* Find_the_DifferencesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3629DA91237C635F000E46A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3629DA9A237C635F000E46A3 /* Find_the_DifferencesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3629DA8C237C635F000E46A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3629DA6F237C635D000E46A3 /* Find the Differences */;
+			targetProxy = 3629DA8B237C635F000E46A3 /* PBXContainerItemProxy */;
+		};
+		3629DA97237C635F000E46A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3629DA6F237C635D000E46A3 /* Find the Differences */;
+			targetProxy = 3629DA96237C635F000E46A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3629DA7D237C635D000E46A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3629DA7E237C635D000E46A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3629DA82237C635F000E46A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3629DA83237C635F000E46A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3629DA9C237C635F000E46A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3629DA9D237C635F000E46A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3629DA9F237C635F000E46A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Find the Differences/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WoodyApps.Find-the-Differences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3629DAA0237C635F000E46A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Find the Differences/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WoodyApps.Find-the-Differences";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3629DAA2237C635F000E46A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Find the DifferencesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WoodyApps.Find-the-DifferencesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find the Differences.app/Find the Differences";
+			};
+			name = Debug;
+		};
+		3629DAA3237C635F000E46A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Find the DifferencesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WoodyApps.Find-the-DifferencesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find the Differences.app/Find the Differences";
+			};
+			name = Release;
+		};
+		3629DAA5237C635F000E46A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Find the DifferencesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WoodyApps.Find-the-DifferencesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Find the Differences";
+			};
+			name = Debug;
+		};
+		3629DAA6237C635F000E46A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Find the DifferencesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WoodyApps.Find-the-DifferencesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Find the Differences";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3629DA6B237C635D000E46A3 /* Build configuration list for PBXProject "Find the Differences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3629DA9C237C635F000E46A3 /* Debug */,
+				3629DA9D237C635F000E46A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3629DA9E237C635F000E46A3 /* Build configuration list for PBXNativeTarget "Find the Differences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3629DA9F237C635F000E46A3 /* Debug */,
+				3629DAA0237C635F000E46A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3629DAA1237C635F000E46A3 /* Build configuration list for PBXNativeTarget "Find the DifferencesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3629DAA2237C635F000E46A3 /* Debug */,
+				3629DAA3237C635F000E46A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3629DAA4237C635F000E46A3 /* Build configuration list for PBXNativeTarget "Find the DifferencesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3629DAA5237C635F000E46A3 /* Debug */,
+				3629DAA6237C635F000E46A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3629DA68237C635D000E46A3 /* Project object */;
+}
